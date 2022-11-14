@@ -1,4 +1,5 @@
 #!/bin/bash
+# to do: move this to /usr/local/sbin from setup.sh and create a startup.service to run with systemd on boot
 # should be ran every time at startup
 yes | pacman -Scc # clean package cache
 alias beeep="speaker-test -t sine -f 1000 -l 1" # set alias for speaker test
