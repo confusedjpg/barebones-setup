@@ -1,0 +1,10 @@
+[Unit]
+Description=Custom startup script
+
+[Service]
+ExecStart=/usr/local/sbin/startup.sh
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
